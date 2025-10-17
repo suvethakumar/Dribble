@@ -59,7 +59,8 @@ style.css
       font-size: 10px;
     }
   </style>
-
+</head>
+<body>
   dribble.html
 
   <!-- Dark Theme Navbar -->
