@@ -1,5 +1,5 @@
 # Project Responsive Web Design using Bootstrap
-## Date:5/10/25
+## Date:4.10.2025
 
 ## AIM:
 To create a simplified clone of Dribbble (https://dribbble.com/) landing page.
@@ -27,67 +27,48 @@ Publish the website in the LocalHost.
 
 ## PROGRAM :
 ```
-style.css
 <html>
 <head>
   <meta charset="UTF-8">
   <title>Dribbble Style Page</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    .body {
-      background-color: orange;
-    }
-    .subtext {
-      color: grey;
-    }
-    .btn-learn {
-      background-color: grey;
-      color: white;
-    }
-    .btn-signup {
-      background-color: pink;
-      color: white;
-    }
-    .image-label {
-      font-size: 3px;
-      text-align: center;
-      margin-top: 1px;
-    }
-    .navbar-brand {
-      color: pink !important;
-      font-weight: bold;
-      font-size: 10px;
-    }
-  </style>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
 </head>
 <body>
-  dribble.html
+  
 
-  <!-- Dark Theme Navbar -->
+  
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <!-- Dribbble brand on left -->
+      
       <a class="navbar-brand" href="#">Dribbble</a>
-
-      <!-- Navbar items -->
+      <a class="navbar-brand" href="#"> show </a>
+      <a class="navbar-brand" href="#"> now </a>
+      <a class="navbar-brand" href="#"> ... </a>
+      
+   
+    
+    <div class=""collapse navbar-collapse" id="
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ms-3"></ul>
       </div>
     </div>
   </nav>
 
-  <!-- Top Bar for Sign In / Sign Up -->
+  
   <div class="d-flex justify-content-end p-3 bg-white">
     <a href="#" class="me-3 text-decoration-none">Sign in</a>
     <a href="#" class="btn btn-signup">Sign up</a>
   </div>
 
-  <!-- Header Section -->
+  
   <div class="text-center my-4">
     <h6 class="fw-bold">What are you working on?</h6>
     <p class="subtext">Dribbble is show and tell for designers.</p>
-    <button class="btn btn-learn me-2">Learn more</button>
-    <button class="btn btn-signup">Sign up</button>
+    <button class="btn btn-info">Learn more</button>
+    <button class="btn btn-info">Sign up</button>
   </div>
 
   <img src="jpg1.jpg"height="200",width="200"style="display:">
@@ -110,12 +91,8 @@ style.css
 
 ```
 
-
 ## OUTPUT:
-![alt text](<Screenshot (79).png>)
-
-
-
+![alt text](<Screenshot (88).png>)
 
 ## RESULT:
-The Project for responsive web design using Bootstrap is completed successfully.
+The Project for responsive web design using Bootstrap is completed successfully.
